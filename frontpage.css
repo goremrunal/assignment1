@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+:root{
+    --navbar-height:59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    animation-name: mrunal;
+    animation-iteration-count:1; 
+    animation-fill-mode: aletarnate;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+#logo{
+    margin: 40px,40px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+#navbar{
+    position: relative;
+    align-items: center;
+    position:relative;
+    top:0px;
+}
+#navbar ul{
+    display:flex;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.4rem;
+}
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font: size 1.3em;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color:black;
+    background-color: aliceblue;
+}
+/* Define the styles for the right box */
+.right-box {
+    float: right; /* Make the box float to the right */
+    width: 50%; /* Set the width of the box to 50% of the container */
+    background-color: lightblue; /* Set the background color of the box */
+    padding: 20px; /* Add some space around the content */
+    margin: 10px; /* Add some space outside the box */
+  }
+  
+  /* Define the styles for the left box */
+  .left-box {
+    float: left; /* Make the box float to the left */
+    width: 60%; /* Set the width of the box to 40% of the container */
+    background-color: lightgreen; /* Set the background color of the box */
+    padding: 20px; /* Add some space around the content */
+    margin: 10px; /* Add some space outside the box */
+  }
+  
+  /* Clear the floats after the boxes */
+  .content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Define the styles for the images inside the left box */
+  .left-box img {
+    display: block; /* Make the images display as block elements */
+    width: 100%; /* Set the width of the images to 100% of the box */
+    margin-bottom: 10px; /* Add some space below the images */
+  }
+  
+  
+  /* Style the content area with a grey background and some padding */
+  .content {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Style the left box with a white background and some margin */
+  .left-box {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+  }
+  
+  /* Style the right box with a white background and some margin */
+  .right-box {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+  }
+  
+  /* Style the images inside the left box */
+  .left-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the footer with a blue background and some padding */
+  .footer {
+    overflow: hidden;
+    background-color: #53095a;
+    padding: 20px 10px;
+  }
+  
+  /* Style the footer text */
+  .footer p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }

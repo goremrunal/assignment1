@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: orange;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+/* Style the grid-container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Style the grid-item */
+.grid-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Style the small grid-item */
+.grid-item.small {
+    width: 20%;
+    height: 100px;
+}
+
+/* Style the large grid-item */
+.grid-item.large {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the image-box */
+.grid-item.large img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    background-color: gray;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid orange;
+}

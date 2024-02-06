@@ -1,0 +1,176 @@
+<!---- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color:rgba(80, 6, 76, 0.5);
+        }
+        form{
+            background-color:bisque;
+            width:40%;
+            padding:20px;
+            margin: auto;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+        }
+        input:hover{
+            background-color:rgb(132, 243, 132,0.4);
+            margin-left:20px;
+        }
+     .main{
+        margin-left:400px;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="main"> 
+        <caption><B>GeeksforGeeks</B></caption><br><br>
+        <caption><B>Basic form design using HTML</B></caption><br><br>
+        </div> 
+        <form>
+        <fieldset>
+            <legend> Personal Details</legend><br>
+            <label for=" ">First Name :</label>
+            <input type="text" placeholder="Enter First Name"><br><br>
+            <label for=" ">Last Name :</label>
+            <input type="text" placeholder="Enter Last Name"><br><br>
+            <span> Gender :</span>
+            <input type="radio" name="Gender" id="" value="">
+            <label for=" "> Male</label>
+            <input type="radio" name="Gender" id="" value="">
+            <label for=" ">Female</label>
+            <input type="radio" name="Gender" id="" value="">
+            <label>Other</label><br><br>
+            <label for=" ">E-mail :</label>
+            <input type="text" placeholder="Enter your e-mail address"><br><br>
+            <label for=" ">Password :</label>
+            <input type="password" placeholder="Enter your password"><br><br>
+            <label for=" ">Confirm Password :</label>
+            <input type="password" placeholder="Confirm your password"><br><br>
+            <label for=" ">Date of Birth:</label>
+            <input type="date" placeholder=""><br><br>
+            <label for=" ">Address:</label><br><br>
+            <textarea col="7" placeholder="Enter your text here" rows="6"width="50%"height="50%"></textarea>
+            <br>
+    <input type="button"><br><button>Submit</button>
+ </fieldset>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            background-color:rgba(80, 6, 76, 0.5);
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form{
+            background-color:bisque;
+            width:40%;
+            padding:20px;
+        }
+        input:hover{
+            background-color:rgba(51, 179, 119, 0.4);
+            flex:right;
+        }
+        fieldset{
+            padding:20px;
+        }
+        
+    button {
+        width: 70%;
+        padding: 10px;
+        background-color: #2a1b7e;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left:80px;
+    }
+    textarea{
+        width:70%;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="main"> 
+                <caption><B>GeeksforGeeks</B></caption><br><br>
+                <caption><B>Basic form design using HTML</B></caption><br><br>
+            </div> 
+            <fieldset>
+                <legend> Personal Details</legend><br>
+                <label for="">First Name :</label>
+                <input type="text" placeholder="Enter First Name" maxlength="100"><br><br>
+                <label for="">Last Name :</label>
+                <input type="text" placeholder="Enter Last Name" maxlength="100"><br><br>
+                <span> Gender :</span>
+                <input type="radio" name="Gender" id="" value="" maxlength="50">
+                <label for=""> Male</label>
+                <input type="radio" name="Gender" id="" value="">
+                <label for="">Female</label>
+                <input type="radio" name="Gender" id="" value="">
+                <label>Other</label><br><br>
+                <label for="">E-mail :</label>
+                <input type="text" placeholder="Enter your e-mail address"><br><br>
+                <label for="">Password :</label>
+                <input type="password" placeholder="Enter your password"><br><br>
+                <label for="">Confirm Password :</label>
+                <input type="password" placeholder="Confirm your password"><br><br>
+                <label for="">Date of Birth:</label>
+                <input type="date" placeholder=""><br><br>
+                <label for="">Address:</label><br><br>
+                <textarea cols="20" placeholder="Enter your text here" rows="8" width="70%" height="50%"></textarea>
+                <br>
+                <input type="button"><br><button>Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+    

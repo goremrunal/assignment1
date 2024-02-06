@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style the body element */
+    body {
+      background-color: #60d3c9;
+      font-family: Arial, sans-serif;
+
+    }
+
+    /* Style the form element */
+    form {
+      background-color: white;
+      max-width: 800px;
+      margin: 20px auto;
+      padding:9px;
+      border: 1px solid black;
+      height :760px;
+    }
+
+    /* Style the form headings */
+    h1, p {
+      text-align: center;
+    }
+
+    /* Style the form labels and inputs */
+    label, input, select {
+      display: block;
+      
+      width: 45%;
+      margin: 9px auto;
+      align-items: right;
+    }
+
+    /* Style the input elements */
+    input, select, textarea {
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 9px;
+    }
+
+    /* Style the submit button */
+     .formgroup {
+      padding-left:25px;
+      align-items: center;
+      background-color: green;
+      color: white;
+      font-size: 10px;
+      cursor: pointer;
+    }
+    #role{
+      padding: 4px;
+    }
+    #submit{
+        margin-left:400px;
+    }
+  </style>
+</head>
+<body>
+    <h1><b>Survey Form</b></h1>
+    <form>
+    <p>Let us know how we can improve freeCodeCamp</p>
+    <label for="name">* Name:</label>
+     <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <label for="email">* Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <label for="age">Age:</label>
+    <select id="age" name="age">
+      <option value="" disabled selected>Select an option</option>
+      <option value="18-25">18-25</option>
+      <option value="26-35">26-35</option>
+      <option value="36-45">36-45</option>
+      <option value="46-55">46-55</option>
+      <option value="56+">56+</option>
+    </select>
+    <label for="role">Which option best describes your current role?</label>
+    <select id="role" name="role">
+      <option value="" disabled selected>Select an option</option>
+      <option value="student">Student</option>
+      <option value="full-time-job">Full Time Job</option>
+      <option value="full-time-learner">Full Time Learner</option>
+      <option value="part-time-job">Part Time Job</option>
+      <option value="part-time-learner">Part Time Learner</option>
+      <option value="other">Other</option>
+    </select>
+    <label for="recommend">How likely is that you would recommend freeCodeCamp to a friend?</label>
+    <input type="radio" id="definitely" name="recommend" value="definitely">
+    <label for="definitely">Definitely</label>
+    <input type="radio" id="maybe" name="recommend" value="maybe">
+    <label for="maybe">Maybe</label>
+    <input type="radio" id="not-sure" name="recommend" value="not-sure">
+    <label for="not-sure">Not Sure</label>
+</select>
+    <!-- Choice input with checkbox -->
+    <div class="form-group">
+      <label for="choice">Things that should be improved in future(Check all that apply) :</label>
+      <div id="choice" class="checkbox-group">
+        <input type="checkbox" id="front-end" name="choice" value="front-end">
+        <label for="front-end">Front End Projects</label>
+        <input type="checkbox" id="back-end" name="choice" value="back-end">
+        <label for="back-end">Back End Projects</label>
+        <input type="checkbox" id="data-visualization" name="choice" value="data-visualization">
+        <label for="data-visualization">Data Visualization</label>
+        <button type="submit" id="submit">Submit</button>
+    </div>
+  </form>

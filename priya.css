@@ -1,0 +1,136 @@
+body,h1,h2,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+/* Style the header */
+header {
+    background-color: rgb(222, 146, 17);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 7px, gray;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+img  {
+    width:92%;
+    height:190px;
+    margin-right:12px;
+    margin-left:11px;
+    margin-top:11px;
+    margin-bottom:11px;
+}
+.container3 img {
+
+    width:96%;
+    height:240px;
+    margin-right:12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom:12px;
+
+}
+.btn {
+    width: 18%;
+    padding: 13px;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-top: 6px;
+    margin-right:12px;
+    margin-left: 9px;
+    margin-bottom: 6px;
+
+}
+
+.nav-bar {
+    justify-content: flex-start;
+    display: inline-block;
+    background-color: rgba(255, 253, 253, 0.3);
+    width:98%;
+    margin-left: 11px;
+    margin-right: 10px;
+
+}
+
+.main_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.container1 {
+    width: 38%;
+    height: 400px;
+    background-color: #eea5a5;
+    color: black;
+    margin-top: 20px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.container3 {
+    width:86%;
+    height:400px;
+    background-color: #f0a4a4;
+    color: black;
+    margin-top: 20px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+} 
+
+.container_btn {
+    padding: 15px;
+    margin: 10px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.container_btn3 {
+    padding:14px;
+    margin: 10px;
+    width:95%;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 5px;
+}
+.container1 p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container3 p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    background-color: rgb(222, 134, 31);
+    color: white;
+    text-align: center;
+    padding:1px;
+    margin-top: 12px, solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 15px, black;
+    border-top: 5px solid black;
+
+}
